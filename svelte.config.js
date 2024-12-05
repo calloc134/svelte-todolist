@@ -15,4 +15,10 @@ const config = {
 	}
 };
 
-export default config;
+export default {
+	kit :{
+		adapter: adapter({
+			fallback: '200.html'
+		})
+	}
+};

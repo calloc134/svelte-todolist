@@ -1,5 +1,6 @@
 <script>
     export const prerender = true;
+    export const ssr = true;
     export let Tasks = [];
     export let task = '';
     export let num=1;
