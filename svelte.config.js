@@ -15,7 +15,11 @@ const config = {
 
     prerender: {
       entries: ['*'] // Prerender all pages
-    }
+    },
+
+	paths: {
+		base: '/svelte-todolist' // GitHub Pagesでのプロジェクト名を指定
+	}
   }
 };
 
