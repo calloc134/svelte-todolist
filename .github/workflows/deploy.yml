@@ -27,9 +27,6 @@ jobs:
       - name: Build Svelte app
         run: npm run build
 
-      - name: Debug Build Output
-        run: ls -la .svelte-kit/output
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
