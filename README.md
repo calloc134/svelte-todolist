@@ -1,1 +1,2 @@
 # svelte-todolist
+優先度でマージソートされるtodoリストです
