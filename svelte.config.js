@@ -16,9 +16,12 @@ const config = {
 };
 
 export default {
-	kit :{
-		adapter: adapter({
-			fallback: '200.html'
-		})
-	}
-};
+	kit: {
+	  adapter: adapter({
+		out: 'build' // 出力先を 'build' に指定
+	  }),
+	  prerender: {
+		entries: ['*']
+	  },
+	},
+  };
